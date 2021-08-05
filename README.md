@@ -10,6 +10,8 @@
   * HTML History
   * HTML Tags 
 
+<hr>
+
 * Day 02
   * Img tag
     * maps in img
