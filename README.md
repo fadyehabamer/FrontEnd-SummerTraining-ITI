@@ -9,3 +9,10 @@
   * How Internet works ?
   * HTML History
   * HTML Tags 
+
+* Day 02
+  * Img tag
+    * maps in img
+  * Tables
+  * Links
+  * Forms
