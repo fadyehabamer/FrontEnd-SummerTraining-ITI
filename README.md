@@ -27,3 +27,5 @@
   * Some CSS2 Properties
     * color , font , border , margin , padding 
     * display ( inline-block )  for making layouts 
+
+<hr>
