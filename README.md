@@ -29,3 +29,11 @@
     * display ( inline-block )  for making layouts 
 
 <hr>
+
+* Day 04
+  * Intro to javascript
+  * History of javascript
+  * ECMA5
+  * Variables , Functions , Conditions , Loops
+  * Hoisting
+     - For both variables , functions
