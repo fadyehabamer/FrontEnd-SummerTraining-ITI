@@ -42,6 +42,7 @@
 
 
 * Day 05
+  * cont. in javascript
   * scooping
   * string
     * string built in functions
