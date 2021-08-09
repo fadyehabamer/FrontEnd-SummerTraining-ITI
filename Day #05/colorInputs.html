@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 05 - 2</title>
+</head>
+
+<body>
+    <h2 style="text-align: center; font-family: sans-serif;"> Entering user information 👨 </h2>
+    <hr>
+
+
+    <script>
+        //  * ! minimize CODE
+        var name = prompt("Enter your name"),
+            phone = parseInt(prompt("Enter Phone number")),
+            Telephone = parseInt(prompt("Enter Telephone number")),
+            Email = prompt("Enter your email address"),
+            color = prompt("choose your color (blue , red , green) "),
+            ansname = "welcome dear guest " + name + "<br>",
+            ansphone = "Your phone " + phone + "<br>",
+            anstelephone = "Your Telephone " + Telephone + "<br>",
+            ansemail = "Your Email " + Email + "<br>",
+            UserData = ansname + ansphone + anstelephone + ansemail,
+            t_date = new Date();
+
+        document.write(UserData.fontcolor(color))
+        document.write("<br>")
+        document.write("Todays date is " + t_date.toLocaleString().fontcolor("color"))
+        // toLocaleString
+    </script>
+</body>
+
+</html>
