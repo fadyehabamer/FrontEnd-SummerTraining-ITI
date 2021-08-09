@@ -37,3 +37,13 @@
   * Variables , Functions , Conditions , Loops
   * Hoisting
      - For both variables , functions
+
+<hr>
+
+
+* Day 05
+  * scooping
+  * string
+    * string built in functions
+  * math
+  * date
