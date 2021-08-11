@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+</head>
+
+<body>
+
+    <script>
+        var input = prompt(' Enter the string to check if it is palindrome or not'),
+            caseSen = prompt("Case Sensitive or not ANSWER with (True or false) "),
+            finalInput = Palindrome(input, caseSen);
+
+        function Palindrome(string, CaseSensitive) {
+            var reversedString = string.split('').reverse().join('');
+
+            if (CaseSensitive == "false") {
+                string = string.toLowerCase()
+                reversedString = reversedString.toLowerCase()
+            }
+             else {
+                string = string,
+                reversedString = reversedString
+            }
+
+
+            if (string == reversedString) {
+                alert('Yaaay it is palindrome 😍😎 ');
+            } else {
+                alert(' oops it is not palindrome 😥😥 ');
+            }
+        }
+    </script>
+</body>
+
+</html>
