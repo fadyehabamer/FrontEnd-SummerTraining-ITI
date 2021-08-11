@@ -48,3 +48,12 @@
     * string built in functions
   * math
   * date
+
+
+<hr>
+
+* Day 06
+  * cont. in javascript
+  * Array
+  * Array built in methods
+  
