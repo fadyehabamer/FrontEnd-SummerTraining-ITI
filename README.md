@@ -56,4 +56,9 @@
   * cont. in javascript
   * Array
   * Array built in methods
+    * pop , push , shift , unshift
+    * filter
+    * every , some
+    * join , concat
+    * sort
   
