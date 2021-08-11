@@ -4,13 +4,15 @@
 
 <br>
 
-#### Tools used 
+### Tools used 
 * Meetings
     * Microsoft Teams
     * Zoom
+    
 * Development    
    * Vs Code
    * Web Storm
+  
 * Version Control
   * Git 
   * Github
