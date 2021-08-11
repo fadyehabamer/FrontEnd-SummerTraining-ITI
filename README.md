@@ -4,7 +4,7 @@
 
 <br>
 
-### Tools used 
+<!-- ### Tools used 
 * Meetings
     * Microsoft Teams
     * Zoom
@@ -17,7 +17,7 @@
   * Git 
   * Github
 
-<hr>
+<hr> -->
 
 ### Training Content
 
