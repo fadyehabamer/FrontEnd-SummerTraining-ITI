@@ -3,6 +3,20 @@
 > For sure there are best ways to write better code for given tasks , but the challenge is to make the same as layout with given tools and not use advanced tools 
 
 <br>
+#### Tools used :
+* Meetings :
+    * Microsoft Teams
+    * Zoom
+    
+* Development    
+   * Vs Code
+   * Web Storm
+
+* Version Control
+  * Git 
+  * Github
+
+<hr>
 
 ### Training Content
 
