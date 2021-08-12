@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 30px;
+        padding: 10px;
+        background-image: linear-gradient(to bottom, #7cffcb, #74f2ce);
+}
+table{
+    padding: 30px;
+    text-align: center;
+    border: 3px dashed black;
+    border-radius: 8px;
+}
+th{
+    background-color: #EEEEEE;
+    height: 15px;
+    padding: 10px 15px;
+    font-weight: 800;
+} 
+td{
+    height: 20px; 
+    background-color: #fff;
+    height: 15px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
