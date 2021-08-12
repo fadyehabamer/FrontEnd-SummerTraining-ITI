@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input,
+select,
+table,
+textarea,
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: #333;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.66);
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 20px;
+    width: 15px;
+    height: 15px;
+}
+
+tr {
+    margin: 15px 0;
+}
+
+th {
+    border: none;
+    border-radius: 3px 0 0 3px;
+    font: normal normal bold 19px/2 Verdana, Geneva, sans-serif;
+    color: black;
+    background: rgba(255, 221, 221, 1);
+    text-align: center;
+    width: 140px;
+}
+
+#submit,
+#reset {
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+span {
+    font: normal normal bold 14px/2 Verdana, Geneva, sans-serif;
+    color: red;
+    margin: 10px;
+}
+
+.Error {
+    background: rgba(255, 221, 221, 1);
+}
+
+.Espan {
+    font: normal normal bold 8px/2 Verdana, Geneva, sans-serif;
+    color: red;
+    
+}
