@@ -62,3 +62,9 @@
     * join , concat
     * sort
   
+<hr>
+
+* Day 07
+  * cont. in javascript
+  * What is DOM ?
+  * Dom Manipulation
