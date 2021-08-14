@@ -86,3 +86,14 @@
   * javascript OOP
 
 <hr>
+
+* Day 10
+  * Intro to Jquery
+  * Why Jquery?
+  * Jquery selectors
+  * Some built in functions
+      * show()
+      * hide()
+      * addClass()
+      * removeClass()
+      * toggleClass()
