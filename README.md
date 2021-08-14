@@ -73,9 +73,14 @@
 <hr>
 
 * Day 08
-  * cont. in js
+  * cont. in javascript
   * Dom manipulations
   * Dom selectors
   * Events
 
 <hr>
+
+* Day 09
+  * cont. in javascript
+  * cont. in Dom Events
+  * javascript OOP
