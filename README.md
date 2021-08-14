@@ -68,5 +68,14 @@
   * cont. in javascript
   * What is DOM ?
   * Dom Manipulation
+  * Dom selectors
+
+<hr>
+
+* Day 08
+  * cont. in js
+  * Dom manipulations
+  * Dom selectors
+  * Events
 
 <hr>
