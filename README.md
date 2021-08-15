@@ -97,3 +97,14 @@
       * addClass()
       * removeClass()
       * toggleClass()
+
+
+<hr>
+
+* Day 11
+  * cont. in jquery
+
+
+
+
+
