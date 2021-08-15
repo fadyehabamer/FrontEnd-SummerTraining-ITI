@@ -104,6 +104,7 @@
 * Day 11
   * cont. in jquery
   * how to bind events with jquery functions
+      * .bind() , .delegate() [deprecated]
   * delegation
   * bubbling
     * .stopPropagation
