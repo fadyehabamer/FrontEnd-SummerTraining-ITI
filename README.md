@@ -107,6 +107,7 @@
   * delegation
   * bubbling
     * .stopPropagation
+  * ui effect fuctions
 
 
 
