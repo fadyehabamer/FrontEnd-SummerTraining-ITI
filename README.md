@@ -108,6 +108,7 @@
   * bubbling
     * .stopPropagation
   * ui effect fuctions
+    * animation function
 
 
 
