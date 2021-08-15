@@ -1,3 +1,3 @@
 $("div").click(function () {
-    $("body").append($(this).clone(true));//copy withevents
+    $("body").append($(this).clone(true));
 });
