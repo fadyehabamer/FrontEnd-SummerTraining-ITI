@@ -103,6 +103,7 @@
 
 * Day 11
   * cont. in jquery
+  * how to bind events with jq functions
 
 
 
