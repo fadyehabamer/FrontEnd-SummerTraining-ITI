@@ -105,6 +105,8 @@
   * cont. in jquery
   * how to bind events with jquery functions
   * delegation
+  * bubbling
+    * .stopPropagation
 
 
 
