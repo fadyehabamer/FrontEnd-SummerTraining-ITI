@@ -118,8 +118,7 @@
     * cont. in jquery
         * Traversing
           * .parent , .parents
-          * .next
-          * .nextAll
+          * .next , .nextAll
           * .prev
           * .prevAll
           * .children
