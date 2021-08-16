@@ -127,4 +127,5 @@
         * .is
         * .map
         * .find
+        * .attr
 
