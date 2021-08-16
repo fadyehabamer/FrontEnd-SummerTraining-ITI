@@ -119,8 +119,7 @@
         * Traversing
           * .parent , .parents
           * .next , .nextAll
-          * .prev
-          * .prevAll
+          * .prev ,.prevAll
           * .children
           * .is
           * .map
