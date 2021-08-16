@@ -123,4 +123,7 @@
         * .nextAll
         * .prev
         * .prevAll
+        * .children
+        * .is
+        * 
 
