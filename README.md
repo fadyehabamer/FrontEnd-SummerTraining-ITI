@@ -125,4 +125,6 @@
           * .attr
 
     * ECMA Script 6
+        * Arrow Functions
+        * 
 
