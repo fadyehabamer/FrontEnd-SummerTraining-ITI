@@ -114,4 +114,6 @@
 
 <hr>
 
+* Day 12
+    * cont. in jquery
 
