@@ -127,5 +127,5 @@
     * ECMA Script 6
         * Arrow Functions
         * Spread & Rest operators
-        * 
+        * Template literal
 
