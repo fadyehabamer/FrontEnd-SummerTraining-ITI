@@ -121,4 +121,6 @@
         * .parents
         * .next
         * .nextAll
+        * .prev
+        * .prevAll
 
