@@ -117,17 +117,16 @@
 * Day 12
     * cont. in jquery
         * Traversing
-        * .parent
-        * .parents
-        * .next
-        * .nextAll
-        * .prev
-        * .prevAll
-        * .children
-        * .is
-        * .map
-        * .find
-        * .attr
+          * .parent , .parents
+          * .next
+          * .nextAll
+          * .prev
+          * .prevAll
+          * .children
+          * .is
+          * .map
+          * .find
+          * .attr
 
     * ECMA Script 6
 
