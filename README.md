@@ -119,4 +119,6 @@
         * Traversing
         * .parent
         * .parents
+        * .next
+        * .nextAll
 
