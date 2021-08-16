@@ -125,5 +125,6 @@
         * .prevAll
         * .children
         * .is
-        * 
+        * .map
+        * .find
 
