@@ -121,9 +121,7 @@
           * .next , .nextAll
           * .prev ,.prevAll
           * .children
-          * .is
-          * .map
-          * .find
+          * .is , .map , .find
           * .attr
 
     * ECMA Script 6
