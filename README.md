@@ -129,3 +129,5 @@
         * .find
         * .attr
 
+    * ECMA Script 6
+
