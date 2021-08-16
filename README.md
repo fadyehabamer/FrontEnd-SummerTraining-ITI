@@ -116,4 +116,7 @@
 
 * Day 12
     * cont. in jquery
+        * Traversing
+        * .parent
+        * .parents
 
