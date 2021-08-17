@@ -132,3 +132,7 @@
         * Spread & Rest operators
         * Template literal
 
+<hr>
+
+* Day 13
+    * cont. in ES6
