@@ -140,4 +140,5 @@
     * factory function ==> JS design pattern
     * consice function
     * Class in ES6..
+         * constructor()
 
