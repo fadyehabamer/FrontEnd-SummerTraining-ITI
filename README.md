@@ -143,4 +143,7 @@
          * constructor()
          * inhertance
          * super()
+         * ES6 modules
+             * import
+             * export
 
