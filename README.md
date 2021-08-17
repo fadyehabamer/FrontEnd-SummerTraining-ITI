@@ -141,4 +141,6 @@
     * consice function
     * Class in ES6..
          * constructor()
+         * inhertance
+         * super()
 
