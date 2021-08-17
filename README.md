@@ -138,4 +138,6 @@
     * cont. in ES6
     * Object with ES6
     * factory function ==> JS design pattern
+    * consice function
+    * Class in ES6..
 
