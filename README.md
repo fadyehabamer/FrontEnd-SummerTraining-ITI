@@ -150,6 +150,7 @@
 
 * Day 14
   * Intro to React
+  * How to create React Enviroment
   * JSX
      * javsscript embeded html
   * Variable Components
