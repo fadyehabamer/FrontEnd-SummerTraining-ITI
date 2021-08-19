@@ -153,3 +153,4 @@
   * JSX
      * javsscript embeded html
   * Variable Components
+  * Function Components
