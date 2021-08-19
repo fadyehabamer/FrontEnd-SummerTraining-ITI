@@ -152,4 +152,4 @@
   * Intro to React
   * JSX
      * javsscript embeded html
-  * JSX Variables
+  * Variable Components
