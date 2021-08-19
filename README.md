@@ -150,4 +150,5 @@
 
 * Day 14
   * Intro to React
-  * 
+  * JSX
+     * javsscript embeded html
