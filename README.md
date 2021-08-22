@@ -160,3 +160,4 @@
 
 * Day 15
     * cont. in React
+    * class components
