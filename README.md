@@ -152,7 +152,7 @@
   * Intro to React
   * How to create React Enviroment
   * JSX
-     * javsscript embeded html
+     * javascript embeded html
   * Function Components
   * Built a Simple layout using Function components
 
