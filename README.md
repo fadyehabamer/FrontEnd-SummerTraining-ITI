@@ -153,8 +153,8 @@
   * How to create React Enviroment
   * JSX
      * javsscript embeded html
-  * Variable Components
   * Function Components
+  * Built a Simple layout using Function components
 
 <hr>
 
