@@ -160,6 +160,8 @@
 
 * Day 15
     * cont. in React
-    * class components
+    * class component
     * CRUD operations using react
 <hr>
+
+* Day 16
