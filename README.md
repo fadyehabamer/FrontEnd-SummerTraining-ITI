@@ -160,6 +160,7 @@
 
 * Day 15
     * cont. in React
+    * conditional Rendering
     * class component
     * CRUD operations using react
 <hr>
