@@ -174,4 +174,5 @@
 
 * Day 17
   * Cont. in React
+  * importing Bootstrap
   * 
