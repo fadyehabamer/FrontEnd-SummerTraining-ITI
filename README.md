@@ -187,11 +187,11 @@
   * create Fake Server 
   * Deal with data in a React App
     * using axios
-    * | Command  | Axios Method  | Param  |   |   |
+    * | Command  | Axios Method  | Param  |
       |---|---|---|---|---|
-      |   |   |   |   |   |
-      |   |   |   |   |   |
-      |   |   |   |   |   |
+      | Delete  | delete  | id  |
+      |   |   |   |   
+      |   |   |   |   
 <!--     * Delete type of method   delete param  id
     * Edit   type of method   put    param  edit object (body) + id param 
     * Add    type of method   post -->
