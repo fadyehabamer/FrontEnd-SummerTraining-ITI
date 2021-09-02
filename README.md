@@ -185,7 +185,7 @@
 * Day 18
   * Cont. in React
   * create Fake Server 
-  * Deal with data in a React App
+  * Deal with data in a Crud React App
     * using axios
     * | Command | Axios Method | Parameter |
       |---------|--------------|-----------|
