@@ -188,6 +188,7 @@
   * Deal with data in a React App
     * using axios
     * | Command | Axios Method | Parameter |
+      |---------|--------------|-----------|
       
 <!--     * Delete type of method   delete param  id
     * Edit   type of method   put    param  edit object (body) + id param 
