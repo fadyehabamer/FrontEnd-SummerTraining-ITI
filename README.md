@@ -185,5 +185,5 @@
 * Day 18
   * Cont. in React
   * create Fake Server 
-  * Deal with data 
+  * Deal with data in a React App
   
