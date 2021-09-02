@@ -189,6 +189,8 @@
     * using axios
     * | Command | Axios Method | Parameter |
       |---------|--------------|-----------|
+      | Delete  | delete       | ID        |
+      | Edit    | put          | Object + ID |
       
 <!--     * Delete type of method   delete param  id
     * Edit   type of method   put    param  edit object (body) + id param 
