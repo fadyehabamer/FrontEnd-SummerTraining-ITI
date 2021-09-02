@@ -193,7 +193,3 @@
       | Edit    | put          | Object + ID |
       | Add     | post         |             |
 
-      
-<!--     * Delete type of method   delete param  id
-    * Edit   type of method   put    param  edit object (body) + id param 
-    * Add    type of method   post -->
