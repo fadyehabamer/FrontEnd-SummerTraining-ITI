@@ -201,4 +201,5 @@
   * Grid system 
   * Typography 
   * buttons
+  * badges
   
