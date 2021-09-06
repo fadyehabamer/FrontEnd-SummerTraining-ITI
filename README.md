@@ -202,4 +202,5 @@
   * Typography 
   * buttons
   * badges
+  * Pagination 
   
