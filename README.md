@@ -203,4 +203,5 @@
   * buttons
   * badges
   * Pagination 
+  * progress bars 
   
