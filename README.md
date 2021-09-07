@@ -212,6 +212,6 @@
 
 <hr>
 
-<h2 align="center">
-  End of Training
-</h2>
+<h1 align="center">
+  End of Training 🤓
+</h1>
