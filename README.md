@@ -213,5 +213,5 @@
 <hr>
 
 <p align="center">
- <h2> End of Training </h2>
+ ## End of Training
 </p>
