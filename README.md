@@ -209,6 +209,8 @@
 
 * Day 20
   * [Graduation Project](https://github.com/fadyehabamer/Ecommerce-Reactjs-Website)
+  * Duration : 2 weeks
+  * 
 
 <hr>
 
