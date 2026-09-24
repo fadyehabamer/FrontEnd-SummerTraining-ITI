@@ -41,12 +41,14 @@ $("a[href^='http']").css({
 
 
 // * 9- choose first row from each table and change it’s background color
-$("table tr:first").css({
+// (":first" matches only one row on the whole page; ":first-child" matches one per table)
+$("table tr:first-child").css({
     backgroundColor: "lightgreen"
 })
 
 // * 11 - change color of last td in second table
-$("table:eq(1) tr:last").css({
+// ("tr:last" coloured the whole last row; the task asks for the last td)
+$("table:eq(1) td:last").css({
     color: "red"
 })
 
