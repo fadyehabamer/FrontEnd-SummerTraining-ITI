@@ -1,8 +1,11 @@
 var minutes_span = document.getElementById("minutes");
 var seconds_span = document.getElementById("seconds");
 var totalSeconds = 0;
+var begin;
 
 function startNow() {
+  // clicking Start again used to add a second timer (double speed) that Stop could not clear
+  clearInterval(begin);
   begin = setInterval(beginTime, 1000);
 }
 
