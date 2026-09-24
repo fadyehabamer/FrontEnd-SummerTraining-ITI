@@ -217,3 +217,32 @@
 <h1 align="center">
   End of Training 🤓
 </h1>
+
+<br>
+
+## How to run the labs
+
+There is no build step for Days 01–12. Open the `.html` file of a lab in a browser. Most JavaScript labs (Days 04–06, 09, 12) print their results to the browser console (F12), and some ask for input with `prompt()`.
+
+**Day 13 (ES6 modules):** `<script type="module">` does not work from `file://`, so serve the folder:
+
+```bash
+cd "Day #13"
+python3 -m http.server 8000   # then open http://localhost:8000 and check the console
+```
+
+**Days 14–17 (React, Create React App):**
+
+```bash
+cd "Day #16"                  # or "Day #14/Lab 14", "Day #15/CRUD", "Day #17/CRUD using Router & Bootstrap"
+npm install
+npm start
+```
+
+**Day 18 (React + json-server fake API):** start the API first. It serves `db.json` on port 3000, which the React app calls at `http://localhost:3000/Employees`:
+
+```bash
+cd "Day #18/FakeApiServer app" && npm install && npm run json:server
+# in a second terminal
+cd "Day #18/react-fakeapi" && npm install && npm start   # answer "yes" to run on another port (3001)
+```
