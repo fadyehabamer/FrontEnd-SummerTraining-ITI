@@ -2,11 +2,13 @@
 let arr = [1, 90, 24, 52, 2, 43, 5, 7, 9]
 
 // * Arrow function Ascending order
-let ascend_arr = arr.sort((a, b) => a - b)
+// (sort() works in place, so copy with spread first; otherwise ascend_arr and descend_arr
+// are the same array and both end up descending)
+let ascend_arr = [...arr].sort((a, b) => a - b)
 console.log(ascend_arr)
 
 // * Arrow function descinding order
-let descend_arr = arr.sort((a, b) => b - a)
+let descend_arr = [...arr].sort((a, b) => b - a)
 console.log(descend_arr)
 
 // * x>50 using filter
