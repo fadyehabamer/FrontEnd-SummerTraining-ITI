@@ -104,20 +104,16 @@ function NewEmployees() {
         });
         
 
-    var unique_high_Salary = [];
+    // the list is sorted by salary (highest first), so the first employee seen from each
+    // department has that department's highest salary
+    // (the old loop assigned i = length inside the if, then read descendingSalary[i].dept -> TypeError)
+    var unique_high_Salary = [],
+        seenDepts = [];
     for (var i = 0; i < descendingSalary.length; i++) {
-        unique_high_Salary.push(descendingSalary[i].getSalary())
-        
-        if ((i = descendingSalary.length ) > descendingSalary.length  ) {
-            break
-        } else {
-            if (descendingSalary[i].dept == descendingSalary[i + 1].dept) {
-
-                unique_high_Salary.splice((descendingSalary[i+1]), 1)
-
-            }
+        if (seenDepts.indexOf(descendingSalary[i].dept) === -1) {
+            seenDepts.push(descendingSalary[i].dept)
+            unique_high_Salary.push(descendingSalary[i].getSalary())
         }
-
     }
     console.log(unique_high_Salary)
 
