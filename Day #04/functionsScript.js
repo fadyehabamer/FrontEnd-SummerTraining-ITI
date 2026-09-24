@@ -58,7 +58,7 @@ function simpleCalc(firstnum, operator, secnum) {
 // ---------------------------------------------------------------------
 // * grade calculation
 function gradeCalculation(grade) {
-    if (grade > 85) {
+    if (grade >= 85) {
         console.log('Excellent');
     }
 
