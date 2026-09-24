@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <form name='registration' onsubmit="validate_username()">
+    <form name='registration' onsubmit="return validate()">
         <table>
             <tr>
                 <h1>Registration Form</h1>
@@ -23,7 +23,7 @@
                 <th><label for="userid">User id:</label></th>
                 <td>
                     <input type="text" id="userid" name="userid" size="50" />
-                    <span id="uid" class"espan" style="display:none">User ID must numbers and not empty 
+                    <span id="uid" class="espan" style="display:none">User ID must numbers and not empty 
                         <br>
                         Min = 5 , Max = 10
                     </span>
@@ -32,7 +32,7 @@
             <tr>
                 <th><label for="country">Country:</label></th>
                 <td>
-                    <select id="country" name="country" onch>
+                    <select id="country" name="country">
                         <option selected="" value="Default">Please select a country</option>
                         <option value="112233">Egypt</option>
                         <option value="223344">KSA</option>
@@ -41,13 +41,13 @@
                         <option value="556677">USA</option>
                     </select>
                     <span id="countryId"></span>
-                    <span id="counteryVa" class"espan" style="display:none">Counter must be choose</span>
+                    <span id="counteryVa" class="espan" style="display:none">Counter must be choose</span>
                 </td>
             </tr>
             <tr>
                 <th><label for="email">Email:</label></th>
                 <td><input type="text" name="email" size="50" />
-                    <span id="email_err" class"espan" style="display:none">Email must be formatted</span>
+                    <span id="email_err" class="espan" style="display:none">Email must be formatted</span>
                 </td>
             </tr>
             <tr>
@@ -58,7 +58,7 @@
             <tr>
                 <th><label for="passconfirm">Confirm :</label></th>
                 <td><input id="confirm" type="password" name="passconfirm" size="50" />
-                    <span id="pass_span" class"espan" style="display:none">Min 10 , Max 20 or Check Matching</span>
+                    <span id="pass_span" class="espan" style="display:none">Min 10 , Max 20 or Check Matching</span>
                 </td>
             </tr>
             <tr>
@@ -67,7 +67,7 @@
                     <input type="radio" name="sex" value="Male">Male</input>
                     <input type="radio" name="sex" value="Female">Female</input>
 
-                    <span id="Gender_span" class"espan" style="display:none">Please , Select your gender</span>
+                    <span id="Gender_span" class="espan" style="display:none">Please , Select your gender</span>
                 </td>
             </tr>
             <tr>
@@ -77,7 +77,7 @@
                     <input type="checkbox" name="Uint" value="C#">C#</input>
                     <input type="checkbox" name="Uint" value="SQL Server">SQL Server</input>
                     <input type="checkbox" name="Uint" value="ASP.Net">ASP.Net</input>
-                    <span id="lang_span" class"espan" style="display:none">Select +2 languages</span>
+                    <span id="lang_span" class="espan" style="display:none">Select +2 languages</span>
                 </td>
             </tr>
 

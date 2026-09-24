@@ -15,8 +15,16 @@ var dispalyData =
 
 
 
+// form values arrive URL-encoded ("Fady+Amer", "%40"); decode them and escape HTML before writing
+function decodeValue(value) {
+    return decodeURIComponent((value || "").replace(/\+/g, " "))
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+}
+
 for (var i = 0; i < userdata.length; i++) {
-    dispalyData += "<td>" + userdata[i].split("=")[1] + "</td>";
+    dispalyData += "<td>" + decodeValue(userdata[i].split("=")[1]) + "</td>";
 }
 console.log("dispalyData", dispalyData);
 dispalyData += "</tr></table>";

@@ -1,7 +1,8 @@
 export class shape {
 
-    constructor() {
-        this.color;
+    constructor(color) {
+        // subclasses pass their colour via super(color); it was ignored before
+        this.color = color;
     }
     set setcolor(color_value) {
         this.color = color_value;

@@ -13,78 +13,60 @@
 
 
 function validate() {
+    // each check shows its message when invalid and hides it again once fixed;
+    // the function returns true only when every field is valid (requirement 10)
+    var valid = true;
+
+    function show(span, isInvalid) {
+        span.style.display = isInvalid ? "block" : "none";
+        if (isInvalid) {
+            valid = false;
+        }
+    }
 
     // ! User Name Validation 
     var username_input = document.forms["registration"]["username"].value,
         uname = document.getElementById("uname")
-    if (username_input == "") {
-        uname.style.display = "block"
-    }
-    else {
-        uname.style.display = "none"
-    }
+    show(uname, username_input == "")
 
     // * =============================================================================
 
     // ! ID VALIDATION // min = 5 , max 10
     var userid_input = document.getElementById("userid").value,
         uid = document.getElementById("uid");
-
-    console.log(userid_input.length)
-
-    if ((isNaN(userid_input) || userid_input == "") || (userid_input.length < 5 || userid_input.length > 10)) {
-        uid.style.display = "block"
-    }
+    show(uid, (isNaN(userid_input) || userid_input == "") || (userid_input.length < 5 || userid_input.length > 10))
 
     // * =============================================================================
 
     // ! Country must be choosen
     var country_input = document.getElementById("country").value,
         country_span = document.getElementById("counteryVa")
-    if (country_input == "Default") {
-        country_span.style.display = "block"
-    }
+    show(country_span, country_input == "Default")
 
     // * =============================================================================
 
     // ! Email must be formatted 
     var email_input = document.forms["registration"]["email"].value,
         email_span = document.getElementById("email_err");
-    if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email_input))) {
-        email_span.style.display = "block"
-    }
+    show(email_span, !(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email_input)))
 
     // * =============================================================================
 
-
-    // ! password
+    // ! password: 10-20 characters and must match the confirmation
+    // (was: length check && pass_span != confirm_input, which compared the <span> element with
+    // a string, so a mismatched confirmation was never reported)
     var pass_input = document.getElementById("pass").value,
         confirm_input = document.getElementById("confirm").value,
         pass_span = document.getElementById("pass_span")
-
-    if ((pass_input.length < 10 || pass_input.length > 20) && pass_span != confirm_input) {
-        pass_span.style.display = "block"
-        // console.log(pass_input, confirm_input)
-    }
+    show(pass_span, pass_input.length < 10 || pass_input.length > 20 || pass_input !== confirm_input)
 
     // * =============================================================================
 
-    // ! check radio buttons clicked
-    var radio_btns = document.querySelectorAll('input[name="sex"]');
-    for (var i = 0; i < radio_btns.length; i++) {
-        var selected = "";
+    // ! a gender radio button must be checked (the old loop only looked at checked buttons,
+    // so the message never appeared when none was chosen)
+    var gender_span = document.getElementById("Gender_span")
+    show(gender_span, document.querySelectorAll('input[name="sex"]:checked').length === 0)
 
-        if (radio_btns[i].checked) {
-            selected = radio_btns[i].value
-            // console.log(selected)
-            if (selected == "") {
-                // console.log(selected)
-                var gender_span = document.getElementById("Gender_span")
-                gender_span.style.display = "block"
-
-            }
-        }
-    }
     // * =============================================================================
 
     // ! check if checkboxes > 2
@@ -97,8 +79,7 @@ function validate() {
             checked++;
         }
     }
-    if (checked < 2) {
-        lang_span.style.display = "block"
-    }
-}
+    show(lang_span, checked < 2)
 
+    return valid
+}

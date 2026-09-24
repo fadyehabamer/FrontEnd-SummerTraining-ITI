@@ -1,7 +1,8 @@
 // * get img from html
 
 var slider_img = document.images[0],
-    counter = 0
+    counter = 1, // images/1.jpg is shown first
+    changing_time
 
 function ChangeImage() {
     counter++;
@@ -13,6 +14,7 @@ function ChangeImage() {
 }
 
 function start() {
+    clearInterval(changing_time); // avoid stacking timers when Start is clicked twice
     changing_time = setInterval(ChangeImage, 1750);
 }
 function stop() {

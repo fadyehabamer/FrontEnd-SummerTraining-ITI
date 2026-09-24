@@ -131,15 +131,11 @@ function min_max(array) {
 }
 
 // * function to Compute the sum and product of an array of integers (Use eval)
-function sumAll(op, array) {
-    console.log("SUM OF ARRAY IS : " + eval(my_array.join(op)));
-
-}
-//op first inout
-// array secno
-function sumAll() {
-    //arguments
-    // ! ??????????????????
+// (there used to be a second, empty sumAll() below this one; function declarations are
+// hoisted, so the empty one replaced this one and sumAll(my_array) printed nothing)
+function sumAll(array) {
+    console.log("SUM OF ARRAY IS : " + eval(array.join("+")));
+    console.log("PRODUCT OF ARRAY IS : " + eval(array.join("*")));
 }
 
 // * get Month name from date
