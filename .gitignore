@@ -24,3 +24,8 @@ npm-debug.log*
 .env
 .env.local
 .env.*.local
+
+# Lockfiles in the per-day course snapshots (not deployed; npm install resolves current versions)
+/Day #*/**/package-lock.json
+/Day #*/**/yarn.lock
+/Day #*/**/pnpm-lock.yaml
